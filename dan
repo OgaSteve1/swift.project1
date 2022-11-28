@@ -1,0 +1,3 @@
+let chararacterSet = CharacterSet.whitespacesAndNewlines.union(.punctuationCharacters)
+let components = str.components(separatedBy: chararacterSet)
+let words = components.filter { !$0.isEmpty }
